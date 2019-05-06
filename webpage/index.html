@@ -14,529 +14,581 @@
 
         <main>
 
-            <h1>Grade Calculator</h1>
+            <h1 style="margin-bottom:0">Grade Calculator</h1>
+            <p style="margin:0; color: blue">*blue border means IS major class</p>
             <h5>Overall GPA: <span id="overall">--</span></h5>
             <h5>Major GPA: <span id="major">--</span></h5>
 
             <button type="button" onclick=" calculate() " style="margin-bottom: 15px;">Calculate</button>
 
+            <h3 class="year-class">First Year</h3>
             <div class="outer-wrap">
 
-                <div class="input-wrap">
+                <div class="card-wrap">
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">English Writing Requirement</a></label>
-                    <select>
+                    <h3 class="semester-class">First Semester</h3>
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">English Writing Requirement</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">College Algebra II</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Foreign Language</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Problem Solving</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Afro-American Elective</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Orientation</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">English Writing Requirement</a></label>
-                    <select>
+                <div class="card-wrap">
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                    <h3 class="semester-class">Second Semester</h3>
+
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">English Writing Requirement</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Applied Calculus</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Foreign Language Level 2</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to Psychology</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Physical Education - Activity</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Orientation 2</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
+            </div>
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Orientation</a></label>
-                    <select>
+            <h3 class="year-class">Second Year</h3>
+            <div class="outer-wrap">
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                <div class="card-wrap">
+
+                    <h3 class="semester-class">First Semester</h3>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Statistics- Bus & Economics</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Principles of Economics</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Accounting Principles</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Management Info Systems</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Career Counseling</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Physical Education - Health</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
+                <div class="card-wrap">
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Orientation 2</a></label>
-                    <select>
+                    <h3 class="semester-class">Second Semester</h3>
+                    <div class="input-wrap">
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">History or Political Science Elective</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Principles of Economics</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Accounting Principles 2</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to Software Design</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Communication</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
+            </div>
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Problem Solving</a></label>
-                    <select>
+            <h3 class="year-class">Third Year</h3>
+            <div class="outer-wrap">
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                <div class="card-wrap">
+
+                    <h3 class="semester-class">First Semester</h3>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Quantitative Bus Analysis</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Database Management</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Science Elective</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Management & Org Behavior</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Principles of Marketing</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
+                <div class="card-wrap">
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Foreign Language</a></label>
-                    <select>
+                    <h3 class="semester-class">Second Semester</h3>
+                    <div class="input-wrap">
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Production & Operations Mgmt</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to Data & Network Comm</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Finance Principles</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Law 1</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Systems Analysis & Design</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
+            </div>
 
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Foreign Language Level 2</a></label>
-                    <select>
+            <h3 class="year-class">Fourth Year</h3>
+            <div class="outer-wrap">
 
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                <div class="card-wrap">
+
+                    <h3 class="semester-class">First Semester</h3>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">C.I.S. Elective</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">C.I.S. Elective</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to eBusiness & Commerce</a></label>
+                        <select class="major">
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Managerial Economics</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Non-Business Elective</a></label>
+                        <select>
+    
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Afro-American Elective</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">History or Political Science Elective</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to Psychology</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Philosophy</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Physical Education - Activity</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Physical Education - Health</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Career Counseling</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">College Algebra II</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Applied Calculus</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Statistics- Bus & Economics</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Principles of Economics</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Accounting Principles</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Management Info Systems</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Principles of Economics</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Accounting Principles</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to Software Design</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Communication</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Production & Operations Mgmt</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to Data & Network Comm</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Finance Principles</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Law</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Systems Analysis & Design</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">C.I.S. Elective</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">C.I.S. Elective</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Intro to eBusiness & Commerce</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Quantitative Bus Analysis</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Database Management</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Science Elective</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Management & Org Behavior</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Principles of Marketing</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Managerial Economics</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Non-Business Elective</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Information Systems Consulting</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Entrepreneurship</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">C.I.S. Elective</a></label>
-                    <select class="major">
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
-                </div>
-                <div class="input-wrap">
-
-                    <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Policy</a></label>
-                    <select>
-
-                        <option value="4">A</option>
-                        <option value="3">B</option>
-                        <option value="2">C</option>
-                        <option value="1">D</option>
-                        <option value="0">F</option>
-                    </select>
+                <div class="card-wrap">
+
+                    <h3 class="semester-class">Second Semester</h3>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Philosophy</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Information Systems Consulting</a></label>
+                        <select class="major">
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Entrepreneurship</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">C.I.S. Elective</a></label>
+                        <select class="major">
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
+                    <div class="input-wrap">
+
+                        <label><a href="http://www.provost.howard.edu/PROVOST/bulletin2/v2business_home.htm">Business Policy</a></label>
+                        <select>
+
+                            <option value="4">A</option>
+                            <option value="3">B</option>
+                            <option value="2">C</option>
+                            <option value="1">D</option>
+                            <option value="0">F</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 

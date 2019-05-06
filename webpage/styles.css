@@ -22,14 +22,23 @@ main {
     justify-content: space-between;
 }
 
+.card-wrap {`
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px 0px #ccc;
+    flex: 1;
+    min-height: 350px;
+}
+
 .input-wrap {
 
-    margin: 10px 0;
-    padding: 25px 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
     position: relative;
 }
 
@@ -61,4 +70,15 @@ a {
 
     text-decoration: none;
     color: blue;
+}
+
+.year-class {
+
+    color: rgb(173, 17, 173);
+    font-size: 25px;
+}
+
+.semester-class {
+
+    color: rgb(10, 153, 10);
 }
